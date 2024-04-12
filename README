@@ -1,0 +1,24 @@
+To start the project using Docker, follow these steps :
+
+1/Prerequisites:
+Make sure you have Docker Desktop and the docker engine is succesfully running
+
+2/Building Containers:
+
+You have to build the containers first, run:
+docker-compose up -d --build
+
+3/Running Containers:
+
+for a second use do not rebuild again, just make sure that the containers are UP, run :
+docker-compose up
+
+4/Accessing the Application:
+
+React client: Open your web browser and go to http://localhost:3000.
+Node.js server: API endpoints are accessible at http://localhost:5000.
+
+5/ Stopping and Removing Containers:
+
+To stop and remove the containers, run:
+docker-compose down
