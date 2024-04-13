@@ -23,13 +23,17 @@ Node.js server: API endpoints are accessible at http://localhost:5000.
 To stop and remove the containers, run:
 docker-compose down
 
-6/Starting a sepcific service (in this case client / server / mongo)
+6/building a specific service
+docker-compose build <service_name>
+
+
+7/Starting a sepcific service (in this case client / server / mongo)
 
 docker-compose up -d server
 docker-compose up -d client
 docker-compose up -d mongo
 
-7/Stopping and Removing a specific service: 
+8/Stopping and Removing a specific service:
 docker-compose stop <service_name>
 docker-compose rm -f <service_name>
 
